@@ -17,7 +17,7 @@ privileged public aspect EndGame {
 	after(C4Dialog message): endGame(message) {
 		//checks to see if there is a winner by checking isWonBy
 		if(message.board.isWonBy(message.player)) {
-			AddSound.playAudio("Short_triumphal_fanfare-John_Stracke-815794903.wav");
+			AddSound.playAudio("AWESOME.wav");
 			JOptionPane.showMessageDialog(new JFrame(), message.player.name()
 					+ " has won", "Dialog", JOptionPane.INFORMATION_MESSAGE);
 		}

@@ -1,11 +1,10 @@
+//Wan Koo
 package c4.ext;
 
 import java.awt.Color;
 import c4.base.BoardPanel;
 import c4.base.C4Dialog;
 import c4.base.ColorPlayer;
-import c4.model.Player;
-import c4.model.*;
 
 //aspectJ file to swap between players between turns
 public privileged aspect addOpponent {
